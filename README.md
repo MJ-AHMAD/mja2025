@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <div align="center">
-    <img src="https://mj-ahmad.github.io/TRUSTED-ALLY/img/logo.png" alt="Logo" width="120" height="120">
+    <img src="https://mj-ahmad.github.io/mja2025/img/logo.png" alt="Logo" width="120" height="120">
   <h1 align="center"><b>TRUSTED ALLY</b></h1>
   <p align="center">
     Together Towards a Brighter Future
