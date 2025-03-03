@@ -32,16 +32,16 @@ function isTargetLocation(lat, lon) {
 // কন্টেন্ট প্রদর্শন
 function showContent() {
     var currentTime = new Date();
-    var targetDate = new Date('2025-03-03T10:30:00');
+    var targetDate = new Date('2025-03-03T11:30:00');
     var endDate = new Date('2025-03-03T23:59:59');
 
     // নির্দিষ্ট সময়ে চেক
     if (currentTime >= targetDate && currentTime <= endDate) {
         document.getElementById("content").innerHTML = `
-            <h1>Special Offer: Buy the Latest T-Shirt Now!</h1>
-            <img src="https://mj-ahmad.github.io/mja2025/img/tshart.png" alt="T-Shirt">
-            <p>Don't miss out on our exclusive offer. Click the button below to buy now.</p>
-            <button onclick="window.location.href='https://yourwebsite.com/buy-now'">Buy Now</button>
+            <h1>Looking a Personal Assistant</h1>
+            <img src="https://mj-ahmad.github.io/mja2025/img/pa.png" alt="T-Shirt">
+            <p>We're looking for an organized, detail-oriented personal assistant . Click the button below to Apply now.</p>
+            <button onclick="window.location.href='https://v0-next-js-recruitment-page.vercel.app'">Apply Now</button>
         `;
     } else {
         document.getElementById("content").innerHTML = "This offer is not available at this time.";
